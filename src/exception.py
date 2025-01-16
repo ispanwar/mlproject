@@ -1,5 +1,6 @@
 import sys
 import logging
+from src.logger import logging
 # use for manipulate diffrent parts of runtime enviroment
 def error_message_detail(error,error_detail:sys):
     notimp1,notimp2,exc_tb = error_detail.exc_info()
