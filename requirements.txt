@@ -1,4 +1,17 @@
+-e .
+ipykernel
 pandas
 numpy
+scikit-learn
+matplotlib
 seaborn
--e .
+flask
+memory_profiler
+streamlit
+joblib
+imblearn
+mediapipe
+tensorflow
+opencv-python
+plotly
+nbformat
