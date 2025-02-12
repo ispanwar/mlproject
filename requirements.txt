@@ -15,3 +15,5 @@ tensorflow
 opencv-python
 plotly
 nbformat
+xgboost
+catboost
