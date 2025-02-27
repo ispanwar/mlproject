@@ -42,6 +42,8 @@ class ModelTrainer:
                 "CatBoosting Regressor": CatBoostRegressor(verbose=False),
                 "Adaboost Regressor": AdaBoostRegressor()            
             }
+            #! add parameters for hyper parameter tuning and refer repo
+            #********************************************#
             # getting report of all the models
             model_report:dict=evaluate_models(X_train=X_train,y_train=y_train,X_test = X_test, y_test = y_test, models = models)
             logging.info("Got the report of all model")
